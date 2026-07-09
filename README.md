@@ -24,10 +24,10 @@ Brazilian E-Commerce Public Dataset by Olist (Kaggle)
 - Watches/gifts is a hidden high-efficiency revenue category
 
 ## Notebooks
-01_data_understanding | Load all 9 tables, .info() audit, data quality findings.
-02_schema_mapping | ERD, primary key verification, join validation.
-03_data_cleaning | Cleaning pipeline, date fixes, NULL handling, master table. 
-04_sql_setup | SQLite queries, business intelligence, delivery analysis.
+01_data_understanding | Load all 9 tables, .info() audit, data quality findings|
+02_schema_mapping | ERD, primary key verification, join validation |
+03_data_cleaning | Cleaning pipeline, date fixes, NULL handling, master table | 
+04_sql_setup | SQLite queries, business intelligence, delivery analysis |
 
 ## Structure
 data/cleaned/    → analysis-ready cleaned CSVs
