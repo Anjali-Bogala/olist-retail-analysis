@@ -30,7 +30,11 @@ real industry analytics engagement — from raw messy data through SQL analysis,
 - Champions and Loyal Customers drive disproportionate revenue
 - "Cannot Lose Them" segment: high-value customers going silent
   — immediate win-back action recommended
-- "Lost" segment: largest by count, lowest priority for spend
+- "Need Attention" is the largest segment (28,899 customers) — 
+  drifting buyers who need re-engagement before permanently churning
+- "At Risk" segment (13,192 customers, avg spend ₹214) is highest 
+  priority for win-back campaigns
+- "Lost" segment: lowest priority for marketing spend
 
 ### 5. Revenue Growth Pattern
 - Strong MoM growth through 2017, peak in Nov 2017
@@ -51,20 +55,22 @@ olist-retail-analysis/
 │   ├── 06_eda_charts         ← 4 business visualisations
 │   └── 07_rfm_segmentation   ← RFM scoring + customer personas
 ├── reports/
-│   ├── findings_summary.md   ← executive summary
-│   ├── rfm_segment_summary   ← segment breakdown CSV
+│   ├── findings_summary.md   ← executive summary CSV
+│   ├── rfm_segment_summary   ← segment breakdown C │   ├── olist_dashboard.pdf   ← Power BI dashboard export
+│   └── dashboard_screenshot  ← dashboard preview image
 │   └── charts (*.png)        ← 5 exported visualisations
 └── README.md
 ```
 
 ## Tech Stack
- Tool : Purpose 
- Python 3.12 : Data cleaning, analysis, visualisation
- pandas : Data manipulation and transformation 
- SQLite + SQL : Business queries, JOINs, window functions 
- matplotlib / seaborn : EDA charts 
- Power BI : Interactive dashboard 
- Git / GitHub : Version control, portfolio hosting 
+| Tool | Purpose |
+|---|---|
+| Python 3.12 | Data cleaning, analysis, visualisation |
+| pandas | Data manipulation and transformation |
+| SQLite + SQL | Business queries, JOINs, window functions |
+| matplotlib / seaborn | EDA charts |
+| Power BI | Interactive dashboard |
+| Git / GitHub | Version control, portfolio hosting |
 
 ## Dataset
 **Brazilian E-Commerce Public Dataset by Olist** (Kaggle)
